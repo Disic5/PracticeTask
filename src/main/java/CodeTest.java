@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
+//comment
 public class CodeTest {
 
 
@@ -20,7 +20,9 @@ public class CodeTest {
         System.out.println();
         System.out.println();
     }
-
+//commit
+//commit
+//commit
     public static String multiTable(int num) {
         return IntStream.rangeClosed(1,10).mapToObj(i -> i + " * " + num + " = " + i * num).collect(Collectors.joining("\n"));
     }
